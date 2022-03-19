@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner vtr = new Scanner(System.in);
-        System.out.println("Your string is: " + vtr.nextLine());
+        System.out.println("Your strong is: " + vtr.nextLine());
 
     }
 }
