@@ -1,5 +1,6 @@
 package com.company;
 import java.lang.String;
+import java.util.Scanner; // Класс позволяет получать информацию от пользователя
 
 
 public class Main {
@@ -17,6 +18,9 @@ public class Main {
         String str = "Hello World!";
 
         System.out.print(str);
+
+        Scanner vtr = new Scanner(System.in);
+        System.out.println(vtr.nextLine());
 
     }
 }
